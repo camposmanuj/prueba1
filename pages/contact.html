@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - PH Manu C.</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navegador">
+        <div class="logo-container">
+          <div class="logo-background">
+            <a class="logo" href="../index.html">J</a>
+          </div>
+        </div>
+
+        <div class="list-container">
+          <ul>
+            <li>
+              <a href="../index.html"><span>01.</span>HOME</a>
+            </li>
+            <li>
+              <a href="../pages/shop.html"><span>02.</span>SHOP</a>
+            </li>
+            <li>
+              <a href="../pages/about.html"><span>03.</span>ABOUT</a>
+            </li>
+            <li>
+              <a href="../pages/contact.html"><span>04.</span>CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="shopping-cart">
+          <img src="../multimedia/imgs/shopping-cart-svgrepo-com.svg" alt="" />
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-container">
+        <h2>Contact</h2>
+        <div class="image-form">
+          <img src="../multimedia/imgs/IMG_1877.JPG" alt="" />
+          <div class="form-container">
+            <div>
+              <p>Razon de contacto <span class="required">(Required)</span></p>
+              <p class="required reason">(seleccionar)</p>
+              <div>
+                <input class="contrataciones" type="radio" name="lado" value="contrataciones" />
+                Contrataciones
+              </div>
+              <div>
+                <input class="consultas-varias" type="radio" name="lado" value="consultas varias" />
+                Consultas Varias
+              </div>
+            </div>
+            <form action="#">
+              <label class="nombre" for="nombre"
+                >Name / Nombres <span class="required">(required)</span> <br />
+                <input class="nombre" type="nombre" placeholder="Name / Nombre"
+              /></label>
+              <br />
+              <label for="apellido"
+                >Last Name / Apellidos <span class="required">(required)</span><br />
+                <input class="apellido" type="apellido" placeholder="Last Name / Apellidos" />
+              </label>
+              <br />
+              <label for="email"
+                >Email <br />
+                <input class="email" type="email" placeholder="example@something.com" name="email" />
+              </label>
+              <br />
+              <label for="asunto">
+                Asunto / Subject<br />
+                <textarea class="asunto" placeholder="Asunto"></textarea>
+              </label>
+              <br />
+              <div>
+              <input class="reset" type="reset" value="Reset" />
+              <button class="enviar">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

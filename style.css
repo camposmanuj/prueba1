@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto', sans-serif;
+}
+
+html {
+  background-color: rgb(40, 40, 40);
+}
+
+.navegador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+} 
+
+.logo-background {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  border: solid 2px transparent;
+  background: linear-gradient(black, black), 
+  radial-gradient(circle at left, #26f1ff 10px, transparent 80px),
+  #ff21ff;
+  background-clip: content-box, border-box, border-box, border-box;
+  background-origin: content-box, border-box, border-box, border-box;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+
+
+}
+
+.logo {
+  background: -webkit-linear-gradient(bottom,#26f1ff 0%, #ff21ff 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 60px;
+  width: 60px;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.navegador ul {
+  list-style: none;
+}
+
+.navegador li {
+  display: inline;
+}
+
+.navegador li a {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.navegador ul li a span {
+  color: #26f1ff;
+  margin-right: 3px;
+}
+.shopping-cart {
+  position: fixed;
+  background-color: #26f1ff;
+  top: 30px;
+  right: 50px;
+  border-radius: 50px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+}
+
+.shopping-cart img {
+  width: 40px;  
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 50px 0px 50px;
+}
+
+.main-container h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.main-container img {
+  width: 350px;
+  background: linear-gradient(#26f1ff, #ff21ff);
+  border-radius: 225px;
+  margin: 20px;
+}
+
+.main-container .highlight-words {
+  color: #26f1ff;
+}
+
+.section-container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.image-container {
+  margin: 50px;
+}
+
+.section-container .image-container img {
+  width: 300px;
+  height: 450px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.travels-container {
+  margin: 50px 30px 0px 50px;
+}
+
+.travel-image {
+  width: 700px;
+  margin: 0px 20px 0px 20px;
+  border-radius: 20px;
+}
+
+.travels-container iframe {
+  margin: 0px 20px 0px 20px;
+  border-radius: 20px;
+}
+
+.travels-container h3 {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  text-align: right;
+}
+
+footer img {
+  background-color:#26f1ff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.contact-container {
+    margin: 80px 80px 0px 80px;
+}
+
+.contact-container h2 {
+  margin-bottom: 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.image-form {
+  display: flex;
+}
+
+.image-form img {
+  width: 450px;
+  height: 600px;
+}
+
+.form-container {
+  color: white;
+  margin-left: 20px ;
+}
+
+.required {
+  font-size: 12px;
+  color: gray;
+}
+
+.reason {
+  margin-bottom: 10px;
+}
+
+.contrataciones {
+  margin-bottom: 10px;
+}
+
+.consultas-varias {
+  margin-bottom: 30px;
+}
+
+.nombre {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 30px;
+  width: 400px;
+}
+
+.apellido {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 30px;
+  width: 400px;
+}
+
+.email {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 30px;
+  width: 400px;
+}
+
+.asunto {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 200px;
+  width: 400px;
+}
+
+.reset {
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  color: black;
+  background-color: #26f1ff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.enviar {
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  color: black;
+  background-color: #26f1ff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+.gear-images {
+  object-fit: contain;
+}
+
+.about-container {
+  margin: 80px 80px 0px 80px;
+}
+
+.about-container h2 {
+  margin-bottom: 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.about-text {
+  color: white;
+}
+
+.side-image {
+  height: 400px;
+}
+
+.middle-image {
+  height: 400px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
